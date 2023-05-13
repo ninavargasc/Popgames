@@ -93,6 +93,28 @@
   </div>
 </div>
 
+
+<button id="pausar" onclick="pausarVideo()">Pausar</button>
+<button id="iniciar" onclick="iniciarVideo()">Iniciar</button>
+<button id="reiniciar" onclick="reiniciarVideo()">Reiniciar</button>
+
+<script>
+  var video = document.getElementById("videojuego");
+
+  function pausarVideo() {
+    video.pause();
+  }
+
+  function iniciarVideo() {
+    video.play();
+  }
+
+  function reiniciarVideo() {
+    video.currentTime = 0;
+    video.play();
+  }
+</script>
+
 <script src="js/placementTilesData.js"></script>
 <script src="js/waypoints.js"></script>
 <script src="js/classes/Sprite.js"></script>
