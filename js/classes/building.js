@@ -9,9 +9,8 @@ class Building extends Sprite {
         offset: {
           x: 0,
           y: -80
-        }
+        },
       })
-  
       this.width = 64 * 2
       this.height = 64
       this.center = {
@@ -42,7 +41,9 @@ class Building extends Sprite {
         this.frames.current === 6 &&
         this.frames.elapsed % this.frames.hold === 0
       )
-        this.shoot()
+
+        this.shoot();
+      
     }
   
     shoot() {

@@ -1,5 +1,5 @@
 class Projectile extends Sprite {
-    constructor({ position = { x: 0, y: 0 }, enemy }) {
+    constructor({ position = { x: 0, y: 0 }, enemy}) {
       super({ position, imageSrc: 'img/projectile.png' })
       this.velocity = {
         x: 0,
@@ -9,7 +9,7 @@ class Projectile extends Sprite {
       this.radius = 10
     }
   
-    update() {
+    update(power = 5) {
       this.draw()
   
       const angle = Math.atan2(
@@ -17,7 +17,6 @@ class Projectile extends Sprite {
         this.enemy.center.x - this.position.x
       )
   
-      const power = 5
       this.velocity.x = Math.cos(angle) * power
       this.velocity.y = Math.sin(angle) * power
   
