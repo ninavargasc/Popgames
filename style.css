@@ -36,14 +36,14 @@ p {
 .section-title {
 	font-size: 4rem;
 	font-weight: 300;
-	color: black;
+	color: #f59d92;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
 	text-align: center;
 }
 .section-title span {
-	color: #9d9e94;
+	color: #f59d92;
 }
 
 .cta {
@@ -66,10 +66,10 @@ p {
 .brand h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
-	color: #9d9e94;
+	color: white;
 }
 .brand h1 span {
-	color: #9d9e94;
+	color: white;
 }
 
 #header {
@@ -118,7 +118,7 @@ p {
 	font-weight: 500;
 	letter-spacing: 0.2rem;
 	text-decoration: none;
-	color: rgb(139, 135, 135);
+	color: black;
 	text-transform: uppercase;
 	padding: 20px;
 	display: block;
