@@ -251,17 +251,6 @@ p {
 	height: 100%;
 	width: 0;
 	background-color: #9d9e94;
-	animation: text_reveal_box 1s ease;
-	animation-delay: 0.5s;
-}
-#hero h1:nth-child(1) span {
-	animation-delay: 0.5s;
-}
-#hero h1:nth-child(2) span {
-	animation-delay: 1.5s;
-}
-#hero h1:nth-child(3) span {
-	animation-delay: 2.5s;
 }
 
 #services .services {
