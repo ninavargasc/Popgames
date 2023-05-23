@@ -82,7 +82,7 @@ p {
 }
 #header .header {
 	min-height: 8vh;
-	background-color: pink;
+	background-color: #e5b8ad;
 	transition: 0.3s ease background-color;
 }
 #header .nav-bar {
@@ -357,7 +357,7 @@ p {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	background-image: linear-gradient(60deg, #f59d92 0%, rgb(205, 73, 119) 100%);
+	background-image: linear-gradient(60deg, #de8276 0%, rgb(138, 95, 110) 100%);
 	color: white;
 }
 #projects .project-info h1 {
@@ -484,7 +484,7 @@ p {
 }
 
 #footer {
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, #e5b8ad 0%, #c99e93 100%);
 }
 #footer .footer {
 	min-height: 200px;
