@@ -141,7 +141,7 @@ p {
 	letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-	color: palevioletred;
+	color: #9d9e94;
 }
 
 #header .hamburger {
@@ -250,7 +250,7 @@ p {
 	left: 0;
 	height: 100%;
 	width: 0;
-	background-color: palevioletred;
+	background-color: #9d9e94;
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
 }
@@ -437,7 +437,7 @@ p {
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 7px solid palevioletred;
+	border: 7px solid #9d9e94;
 	z-index: -1;
 }
 
@@ -548,7 +548,7 @@ p {
 }
 @keyframes text_reveal_name {
 	100% {
-		color: palevioletred;
+		color: #9d9e94;
 		font-weight: 500;
 	}
 }
@@ -604,7 +604,7 @@ p {
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid palevioletred;
+		border: 10px solid #9d9e94;
 	}
 	#about .col-right {
 		text-align: left;
