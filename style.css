@@ -346,7 +346,7 @@ p {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	background-image: linear-gradient(60deg, #de8276 0%, rgb(138, 95, 110) 100%);
+	background-image: linear-gradient(60deg, #bb827a 0%, rgb(138, 95, 110) 100%);
 	color: white;
 }
 #projects .project-info h1 {
