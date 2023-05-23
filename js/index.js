@@ -55,7 +55,7 @@ function spawnEnemies(spawnCount) {
 const buildings = []
 let activeTile = undefined
 let enemyCount = 3
-let hearts = 10
+let hearts = 3
 let coins = 100
 let pause = 0;
 let speed = 2;
