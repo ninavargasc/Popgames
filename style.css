@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+
 * {
 	padding: 0;
 	margin: 0;
@@ -221,7 +222,7 @@ p {
 #hero .hero {
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 0 50px;
+	padding: 0 25px;
 	justify-content: flex-start;
 }
 #hero h1 {
@@ -356,7 +357,7 @@ p {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, #f59d92 0%, rgb(205, 73, 119) 100%);
 	color: white;
 }
 #projects .project-info h1 {
@@ -673,3 +674,4 @@ p {
 		margin: 1.5%;
 	}
 }
+
